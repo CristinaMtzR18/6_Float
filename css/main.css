@@ -1,0 +1,20 @@
+/* Este div tiene las carcateristicas generales de los demas.
+   no se necesita poner la propiedad display porque ya esta la
+   tiene desde el principio por ser del tipo block */
+div{
+	height: 90px;
+	width: 90px;
+	border: red 3px dashed;
+	background-color: purple;
+	font-size: 15px;
+	margin: 5px;
+}
+
+.clearfix{
+	overflow: auto;
+}
+
+.amigos{
+	background-color: pink;
+	float: left;
+}
